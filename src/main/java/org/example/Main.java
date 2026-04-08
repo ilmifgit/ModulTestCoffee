@@ -30,6 +30,7 @@ public class Main {
             Thread.sleep(3000);
             driver.findElement(By.linkText("РЕГИСТРАЦИЯ")).click();
             Thread.sleep(3000);
+            
             driver.findElement(By.name("fields[first-name]")).sendKeys("Auto");
             Thread.sleep(300);
             driver.findElement(By.name("fields[email]")).sendKeys("asceind@gmail.com");
